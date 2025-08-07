@@ -10,7 +10,8 @@ public class prob21 {
                 System.out.print(" ");
             }
             for(int j=1;j<=tc;j++){
-                System.out.print("* ");
+                System.out.print("*");
+                if(j < tc) System.out.print(" ");
             }
             System.out.println();
         }
